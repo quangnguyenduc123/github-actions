@@ -1,0 +1,30 @@
+name: Quang
+age: 25
+address: "city: HCM"
+active: true
+key:
+    key: value
+    key2: value
+jsonObject: {key: value, key2: 33} # not usually used
+# array, each - is an item of array
+array:
+    - item1
+    - item2
+    - item3:
+            key: value
+# each - is an item of array
+objectArray: 
+    - key: value
+      key2: value
+    - key: value
+      key2: value
+# in case we have long text we want to enter new line to easy to read use >
+longText: >
+    abcdefejasdasjkdhakld
+    abcdefejasdasjkdhakld
+    abcdefejasdasjkdhakld
+# in case we have long text and we want to have new line => use |
+longTextNewLine: |
+    abcdefejasdasjkdhakld
+    abcdefejasdasjkdhakld
+    abcdefejasdasjkdhakld
